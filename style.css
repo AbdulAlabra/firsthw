@@ -2,7 +2,7 @@ body {
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif; 
     color: #777;
-    background: #777;
+    background:#777;
     width: 960px; 
 }
 header {
@@ -50,13 +50,13 @@ div{
 aside{
     background: #ebebeb;
     color: #777;
-    position: absolute;
-    top: 184px;
-    right: 200px;
+    float: right;
+    margin-top: -362px;
+    block-size: 360px;
     width: 510px;
-    height: 361px;
-    text-align: center;
-    margin-right: -88px; 
+     text-align: center; 
+    margin-right: -200px;
+     
 }
 footer{
     background-color: #ebebeb;
